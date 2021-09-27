@@ -2,8 +2,6 @@
  * the same number.
  */
 
-package special_numbers;
-
 import java.util.*;
 public class Automorphic_number {
 
