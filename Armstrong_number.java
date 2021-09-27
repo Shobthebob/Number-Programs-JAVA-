@@ -1,7 +1,6 @@
 /* If the sum of the cube of the digits of a number is equal to the number itself, the number is
  * said to a an Armstrong number. 
  */
-package special_numbers;
 
 import java.util.*;
 public class Armstrong_number {
