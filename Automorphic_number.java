@@ -8,6 +8,7 @@ public class Automorphic_number {
 	public static void main(String[] args) {
 				
 		Scanner scan = new Scanner(System.in); // Creating an object with the name "scan"
+		
 		System.out.println("Enter a number: "); // Telling the user to input a number
 		int num = scan.nextInt( ); // Input function
 		int square = num*num; // Square of the entered number
@@ -22,6 +23,7 @@ public class Automorphic_number {
 		else{
 			System.out.println("no"); // if the substring is not equal to the entered number
 		}
+		
         	scan.close( ); // closing the scanner class since we have no further use of it
 	}
 }
