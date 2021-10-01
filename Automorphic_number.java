@@ -1,44 +1,27 @@
 /*In mathematics, a number is called an Automorphic number if the square of the number ends with 
- * the same number.
+ * the same number. [Examples - 1, 5, 6] 
  */
 
-import java.util.*;
+import java.util.*; // For the scanner class 
 public class Automorphic_number {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter a number");
-		int num = scan.nextInt( );
-		int e = num;		
-		//reverse of number
-		int square = num*num;
-		String s1 = "";
-		int d = 0;
-        while(num!=0) {
-        	d = num%10;
-        	s1+=d;
-        	num = num/10;
-        }
-        String rev = s1; // to store the value of reversed number
-        int n1 = Integer.parseInt(rev);
-        int len = s1.length( );        
-        // reverse of square of number
-        String s2 = "";
-		int r = 0;
-        while(square!=0) {
-        	r = square%10;
-        	s2+=r;
-        	square = square/10;
-        }
-        String reverse = s2;// to store value of reversed square         
-        int n2 = Integer.parseInt(reverse.substring(0,len));
-        if(n2==n1) {        
-        	System.out.println(e + " is an Automorphic number");
-        }
-        else {
-        	System.out.println(e + " is not an Automorphic number");
-        }
-        scan.close( );
+				
+		Scanner scan = new Scanner(System.in); // Creating an object with the name "scan"
+		System.out.println("Enter a number: "); // Telling the user to input a number
+		int num = scan.nextInt( ); // Input function
+		int square = num*num; // Square of the entered number
+		
+		// Converting the number and its square to string
+		String n = String.valueOf(num); 
+		String sq = String.valueOf(square);
+		
+		if(Integer.parseInt(square.substring((sq.length( )-1) - (n.length( )-1))) == num){ // Subtracting the lengths of the number and its square to get the number itself
+			System.out.println("yes"); // if the substring is equal to the entered number
+		}
+		else{
+			System.out.println("no"); // if the substring is not equal to the entered number
+		}
+        	scan.close( ); // closing the scanner class since we have no further use of it
 	}
-
 }
