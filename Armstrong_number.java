@@ -29,7 +29,7 @@ public class Armstrong_number {
 			System.out.println(num + " is not an armstrong number"); // // If number and the sum of the cubes of the digits of the number aren't equal
 		}
 		
-	    scan.close( ); // closing the scanner class since we have no further use of it
+		scan.close( ); // closing the scanner class since we have no further use of it
 	}
 
 }
