@@ -25,7 +25,8 @@ public class Happy_number {
 		System.out.println("Enter a number"); // Telling the user to input a number
 		int num = scan.nextInt( ); // Input function
 	        int result = num; // initializing and declaring result  
-	          
+	        
+		// This while will continue running unitll result becomes 1 or 4
 	        while(result != 1 && result != 4){  
 	            result = HappyNumber(result); // Checks if the number ultimately reaches 1 or not
 	        }   
@@ -37,6 +38,6 @@ public class Happy_number {
 	            System.out.println(num + " is not a happy number"); // If sum finally turns out to be 2
 	        }
 		 
-	        scan.close( );
+	        scan.close( ); // closing the scanner class since we have no further use of it
 	 } 
 }
