@@ -9,7 +9,7 @@ public class Happy_number {
 	
 	 public static int HappyNumber(int num) { // This method will reutrn the sum of the 
 		 // square of the digits of the number entered
-		 int rem = 0, sum = 0;
+		 int rem = 0, sum = 0; // Initializing and Declaring rem and sum with integer value 0
 		 while(num > 0){ // running a while loop until num is greater than 0
 	            rem = num%10; // gets the last digit 
 	            sum = sum + (rem*rem); // sum of the square of the digit
