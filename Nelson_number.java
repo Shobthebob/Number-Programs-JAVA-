@@ -4,22 +4,25 @@
  *  and “One Eye, One Arm, One Arsehole”. Its multiples are also considered Nelsons Number
  */
 
-package special_numbers;
-
 import java.util.*;
+
 public class Nelson_number {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter a number");
-		int n = scan.nextInt( );
+		
+		Scanner scan = new Scanner (System.in); // Creating an object with the name "scan"
+		
+		System.out.println("Enter a number"); // Telling the user to input a number
+		int num = scan.nextInt( ); // Input function
+		
 		if(n%111==0) {
-			System.out.println(n + " is a nelson number");
+			System.out.println(n + " is a nelson number"); // if the number is a multiple of 111
 		}
 		else {
-			System.out.println(n + " is not a nelson number");
+			System.out.println(n + " is not a nelson number"); // if the number is not a multiple of 111
 		}
-		scan.close( );
+		
+		scan.close( ); // closing the scanner class since we have no further use of it
 	}
 
 }
