@@ -17,11 +17,11 @@ public class Automorphic_number {
 		String n = String.valueOf(num); 
 		String sq = String.valueOf(square);
 		
-		if(Integer.parseInt(square.substring((sq.length( )-1) - (n.length( )-1))) == num){ // Subtracting the lengths of the number and its square to get the number itself
-			System.out.println("yes"); // if the substring is equal to the entered number
+		if(Integer.parseInt(sq.substring((sq.length( )-1) - (n.length( )-1))) == num){ // Subtracting the lengths of the number and its square to get the number itself
+			System.out.println(num + "is an Automorphic number"); // if the substring is equal to the entered number
 		}
 		else{
-			System.out.println("no"); // if the substring is not equal to the entered number
+			System.out.println(num + "is an Automorphic number"); // if the substring is not equal to the entered number
 		}
 		
         	scan.close( ); // closing the scanner class since we have no further use of it
