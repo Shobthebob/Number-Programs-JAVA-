@@ -21,7 +21,7 @@ public class Krishnamurthy_number {
 		System.out.println("Enter a number"); // Telling the user to input a number
 		int num = scan.nextInt( ); // Input function
 		int e = num; // By storing the value of num in e, we'll be abe to use num later without altering its value
-		int rem=0, sum=0;
+		int rem=0, sum=0; // Initializing and Declaring rem and sum with integer value 0
 		
 		while(e!=0) { // Running a while loop until e comes down to 0
 			rem = e%10; // rem will store the last value of the number
