@@ -10,7 +10,7 @@ public class Happy_number {
 	 public static int HappyNumber(int num) { // This method will reutrn the sum of the 
 		 // square of the digits of the number entered
 		 int rem = 0, sum = 0;
-		 while(num > 0){  
+		 while(num > 0){ // running a while loop until num is greater than 0
 	            rem = num%10; // gets the last digit 
 	            sum = sum + (rem*rem); // sum of the square of the digit
 	            num = num/10; // rest of the number apart from the last digit 
@@ -27,7 +27,7 @@ public class Happy_number {
 	        int result = num; // initializing and declaring result  
 	        
 		// This while will continue running unitll result becomes 1 or 4
-	        while(result != 1 && result != 4){  
+	        while(result != 1 && result != 4){ // running a while loop until result turns out to be 1 or 4
 	            result = HappyNumber(result); // Checks if the number ultimately reaches 1 or not
 	        }   
 		 
