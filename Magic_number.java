@@ -11,7 +11,7 @@ import java.util.*; // For the scanner class
 public class Magic_number {
 	
 	public static int Magic(int n) { // Ths function is gonna recursively add the sum of digits of the number until it's a single digit
-		int rem=0, sum=0; 
+		int rem=0, sum=0; // Declaring and Initializing rem and sum with integer value 0
 		while(n!=0) { // loop to store the value of the sum of the digits of the number passed through arguments
 			rem = n%10; // rem will store the last value of the number 
 			sum+=rem; // sum will store the sum of the digits of the number passed through arguments
