@@ -4,7 +4,7 @@
  *  and “One Eye, One Arm, One Arsehole”. Its multiples are also considered Nelsons Number
  */
 
-import java.util.*;
+import java.util.*; // For the scanner class
 
 public class Nelson_number {
 
