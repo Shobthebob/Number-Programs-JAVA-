@@ -16,7 +16,7 @@ public class Armstrong_number {
 		int rem=0,sum=0,prod=1; 
 		
 		while(n!=0) { // Running a while loop until n comes down to 0
-			rem = e%10; // rem will store the last value of the number
+			rem = n%10; // rem will store the last value of the number
 			prod = rem*rem*rem; // prod will store the cube of the last number
 			sum+=prod; // sum will hold the sum of the cubes 
 			n = n/10; // diving n by 10 to remove the last digit and avoid performing any further actions on it		
