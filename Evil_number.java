@@ -22,8 +22,6 @@ public class Evil_number {
 				count ++; // Counts the number of 1s found
 			}
 		}
-		
-		System.out.println("The binary value of " + n + " is " + num); // Printing the binary value of the entred number
 		System.out.println(""); // To make the output neater
 		
 		if(count%2==0) {
@@ -32,6 +30,7 @@ public class Evil_number {
 		else {
 			System.out.println(n + " is not a evil number"); // If even number of 1s are not present 
 		}
+		
 		scan.close( ); // closing the scanner class since we have no further use of it
 	}
 }
