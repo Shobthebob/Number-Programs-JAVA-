@@ -1,8 +1,6 @@
 /* If the sum of the digits of the square of a number is equal to the number itself the number is 
- * said to be a Neon number
+ * said to be a Neon number. [Examples - 0, 1, 9]
  */
-
-package special_numbers;
 
 import java.util.*;
 public class Neon_number {
