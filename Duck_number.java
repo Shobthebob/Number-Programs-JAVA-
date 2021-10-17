@@ -16,7 +16,7 @@ public class Duck_number {
 		int count = 0; // Will count the number of '0' in the number entered
     		String n = String.valueOf(num); // Converts the number entred to a string type
 
-   		if(n.charAt(0)=='0'){
+   		if(n.charAt(0)=='0'){ // charAt(x) is used to fetch the character at index x
       			System.out.println(num + " is not a duck number"); // if the 1st digit of the number entered is a '0'
       			System.exit(0); // To terminate the entire program
 		}
