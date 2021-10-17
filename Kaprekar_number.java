@@ -27,10 +27,10 @@ public class Kaprekar_number {
 			
 			sum = (Integer.parseInt(sq1)) + (Integer.parseInt(sq2)); // Adding the two parts
 			if(sum == num) {
-				System.out.println(num + " is a capricon number"); // If the sum of the two parts and num is equal
+				System.out.println(num + " is a Kaprekar number"); // If the sum of the two parts and num is equal
 			}
 			else {
-				System.out.println(num + " is not a capricon number"); // If the sum of the two parts and num is not equal
+				System.out.println(num + " is not a Kaprekar number"); // If the sum of the two parts and num is not equal
 			}
 		}
 		else { // If the square cannot be split into two parts
