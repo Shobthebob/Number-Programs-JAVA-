@@ -12,7 +12,7 @@ public class Disarium_number {
 		
 		System.out.println("Enter a number"); // Telling the user to input a number
 		String num = scan.next( ); // Input function
-		int sum=0 ,p=0; // Initializing and Declaring 
+		int sum=0 ,p=0; // Initializing and Declaring sum and p with integer values 0
 		int len = num.length( ); // Length of the number entered 
 		
 		for(int i = 0; i<len; i++) { // Running a for loop till the length of num
