@@ -1,5 +1,5 @@
 /*In mathematics, a number is called an Automorphic number if the square of the number ends with 
- * the same number. [Examples - 1, 5, 6] 
+ * the same number. [Examples - 5, 76, 890625] 
  */
 
 import java.util.*; // For the scanner class 
