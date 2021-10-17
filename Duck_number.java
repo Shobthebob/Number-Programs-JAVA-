@@ -21,7 +21,7 @@ public class Duck_number {
       			System.exit(0); // To terminate the entire program
 		}
    	 	else{
-      			for(int i=0; i<len; i++){ 
+      			for(int i=0; i<len; i++){ // running the for loop till 1 value less than len
         			if(n.charAt(i)=='0'){ // To count the number of '0'
           				count++; // increments by 1 is a 0 is found
         			}
