@@ -23,7 +23,7 @@ public class Krishnamurthy_number {
 		int e = num; // By storing the value of num in n, we'll be abe to use num later without altering its value
 		int rem=0, sum=0;
 		
-		while(e!=0) {
+		while(e!=0) { // Running a while loop until e comes down to 0
 			rem = e%10; // rem will store the last value of the number
 			sum+=factorial(rem); // sum will store the sum of the factorial of each digit of the number
 			e=e/10; // diving e by 10 to remove the last digit and avoid performing any further actions on it
