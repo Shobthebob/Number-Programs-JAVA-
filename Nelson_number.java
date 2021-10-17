@@ -1,7 +1,7 @@
-/* In cricket, the number 111 is sometimes called “a Nelson” after Admiral Nelson, who allegedly 
- * only had “One Eye, One Arm, One Leg” near the end of his life. This is, in fact 
- * inaccurate—Nelson never lost a leg. Alternate meanings include “One Eye, One Arm, One Ambition”
- *  and “One Eye, One Arm, One Arsehole”.
+/* In cricket, the number 111 is sometimes called â€œa Nelsonâ€ after Admiral Nelson, who allegedly 
+ * only had â€œOne Eye, One Arm, One Legâ€ near the end of his life. This is, in fact 
+ * inaccurateâ€”Nelson never lost a leg. Alternate meanings include â€œOne Eye, One Arm, One Ambitionâ€
+ *  and â€œOne Eye, One Arm, One Arseholeâ€. Its multiples are also considered Nelsons Number
  */
 
 package special_numbers;
