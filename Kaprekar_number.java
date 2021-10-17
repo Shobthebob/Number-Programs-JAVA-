@@ -36,7 +36,7 @@ public class Kaprekar_number {
 		else { // If the square cannot be split into two parts
 			System.out.println("The square of the number entered does not have equal parts"); 
 		}		
-        scan.close( ); // closing the scanner class since we have no further use of it
+        	scan.close( ); // closing the scanner class since we have no further use of it
 	}
 
 }
