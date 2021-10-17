@@ -1,5 +1,5 @@
 /* If the sum of the factorial of the digits of a number is equal to the number itself the number
- * is said to be a Krishnamurthy number. [Examples - 1, 2, 145]
+ * is said to be a Krishnamurthy number (also called Strong number). [Examples - 2, 145, 40585]
  */
 
 import java.util.*; // For the scanner class
