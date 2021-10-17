@@ -13,7 +13,7 @@ public class Neon_number {
 		System.out.println("Enter a number"); // Telling the user to input a number
 		int num = scan.nextInt( ); // Input function
 		int sq = num*num; // holds the square of the number entered 		
-		int rem=0,sum=0;
+		int rem=0,sum=0; // Initializing and Declaring rem and sum with integer value 0
 		
 		while(sq!=0) {
 			rem = sq%10; // will store the last digit of the square of the number 
