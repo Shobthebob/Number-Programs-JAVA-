@@ -16,7 +16,7 @@ public class Evil_number {
 		int count = 0; // It'll store the number of 1s in the binary number
 		int len = num.length( ); // Length of the number
 		
-		for(int i=0; i<len; i++) {
+		for(int i=0; i<len; i++) { // runnning a for loop till 1 value less than the length
 			char ch = num.charAt(i); // To iterate through every digit in the number
 			if(ch == '1') {
 				count ++; // Counts the number of 1s found
