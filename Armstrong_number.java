@@ -1,5 +1,5 @@
 /* If the sum of the cube of the digits of a number is equal to the number itself, the number is
- * said to a an Armstrong number. [Examples - 1, 153, 371] 
+ * said to a an Armstrong number. [Examples - 153, 370, 371] 
  */
 
 import java.util.*; // For the scanner class 
