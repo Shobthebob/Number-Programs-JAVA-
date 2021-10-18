@@ -3,8 +3,6 @@
  *  digits, then its called a Fascinating number. [Examples - 192, 327, 2019]
  */
 
-package special_numbers;
-
 import java.util.*; // For the scanner class
 
 public class Fascinating_number {
@@ -43,5 +41,4 @@ public class Fascinating_number {
 		scan.close( ); // closing the scanner class since we have no further use of it
 
 	}
-
 }
